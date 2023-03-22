@@ -163,7 +163,6 @@
         <!-- See https://checkstyle.org/config_design.html -->
         <module name="DesignForExtension"/>
         <module name="FinalClass"/>
-        <module name="HideUtilityClassConstructor"/>
         <module name="InterfaceIsType"/>
         <module name="VisibilityModifier"/>
 
@@ -194,10 +193,4 @@
         <property name="fileExtensions" value="groovy,java"/>
     </module>
 
-    <module name="RegexpMultiline">
-        <property name="format" value="[^\n{]\n\}\n"/>
-        <property name="message" value="Leave empty row before end of class/interface/enum!"/>
-        <property name="severity" value="error"/>
-        <property name="fileExtensions" value="groovy,java"/>
-    </module>
 </module>

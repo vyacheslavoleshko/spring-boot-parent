@@ -1,0 +1,8 @@
+#spring:
+#  datasource:
+#    url:
+#    username:
+#    password:
+#    driver-class-name:
+use-test-containers: true  # If true - runs TestContainers postgres
+  # autoconfigured in [web-starter] dependency.
